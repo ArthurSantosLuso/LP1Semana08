@@ -9,8 +9,8 @@ namespace GameUnit
             MilitaryUnit mu = new MilitaryUnit(2, 10, 4);
             SettlerUnit su = new SettlerUnit();
 
-            Console.WriteLine($"Health: {mu.Health} + Cost: {mu.Cost}");
-            Console.WriteLine($"Health: {su.Health} + Cost: {su.Cost}");
+            Console.WriteLine(mu);
+            Console.WriteLine(su);
         }
     }
 }

@@ -30,6 +30,11 @@ namespace GameUnit
             XP++; // increment self xp
             u.Health -= AttackPower; // apply damage to the unit
         }
+    
+        public override string ToString()
+        {
+            return $"{base.ToString()} AP={AttackPower} XP={XP}";
+        }
     }
 }
 
