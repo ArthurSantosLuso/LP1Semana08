@@ -6,7 +6,11 @@ namespace GameUnit
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            MilitaryUnit mu = new MilitaryUnit(2, 10, 4);
+            SettlerUnit su = new SettlerUnit();
+
+            Console.WriteLine($"Health: {mu.Health} + Cost: {mu.Cost}");
+            Console.WriteLine($"Health: {su.Health} + Cost: {su.Cost}");
         }
     }
 }
